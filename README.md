@@ -61,7 +61,7 @@
 ## 💻 How to run the code
 
 1. Clone the repository in your computer or download locally the folders.
-2. Make sure you are in the python 313 environment, so my libraries load properly.
+2. Make sure you are in the python 3.13 environment, so my libraries load properly.
 3. Open the `Main_simulation_script.ipynb` file in Jupyter Notebook and run the cells in order.
 4. When prompted to define the paths for `aij.RData`, `bij.RData`, `sij.RData` and `vij.RData`, enter the location where these files are stored on your computer.
 5. When prompted for the number of bootstrapping samples, enter any positive number:
