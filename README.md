@@ -7,7 +7,7 @@
 
 ## 📖 Contents
 - [📝 Description of the simulation code](#-description-of-the-simulation-code)
-- [🗂️ Folder structure](#-folder-structure)
+- [🗂️ Folder structure](#%EF%B8%8F-folder-structure)
 - [💻 How to run the code](#-how-to-run-the-code)
 - [🔧 Libaries malfunctions](#-libraries-malfunctions)
 - [📦 Packages and Libraries used](#-packages-and-libraries-used)
@@ -79,7 +79,7 @@
 <br>
 
 
-## 🔧 Libaries malfunctions
+## 🔧 Libraries malfunctions
 
 
 I have already built the libraries **`hiv_smm`** and **`load_functions`**, which are provided as:
