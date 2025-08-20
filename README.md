@@ -104,7 +104,7 @@ However, if they do not work in your environment, you can build them manually:
    - 🧩 Python Standard Libraries: `os`, `tkinter`, `logging`, `time`.
 
 2. **C++ libraries**:
-    - 🔗 External library: `pybind11`.
+    - 🔗 External library: [`pybind11`](https://github.com/pybind/pybind11).
     - 🧩 C++ Standard Libraries: `iostream`, `vector`, `cmath`.
 
 
