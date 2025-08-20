@@ -88,10 +88,11 @@ I have already built the libraries **`hiv_smm`** and **`load_functions`**, which
 
 However, if they do not work in your environment, you can build them manually:
 - **`hiv_smm`** (C++ library): The source files are located in the **`src`** folder. You can generate a Visual Studio solution with **CMake** and build the library.  
-- **`load_functions`** (Python library): Build using the command:  
+- **`load_functions`** (Python library): Build using the command:
+  
   ```bash
   python setup.py build_ext --inplace
-
+  ```
 
 
 <br>
