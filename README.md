@@ -45,13 +45,13 @@
    - Files `aij.RData`, `bij.RData`, `sij.RData`, `vij.RData` contain the parameter estimations obtained from the original dataset. These parameters are used for computing the transition probability matrix $P_{ij}$​ and the Weibull duration times, which are used to generate the simulated dataset.
 
 2. Folder **`src`**
-   - `CMakeLists`: Required to build the libraries for Python. If the pre-built libraries do not work in your environment, you can use these files to build the libraries manually (see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)).
+   - `CMakeLists`: Required to build the libraries for Python. If the pre-built libraries do not work in your environment, you can use these files to build the libraries manually (*see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)*).
    - `loglikelihoodpython.cpp`: C++ functions adapted for Python, to calculate components used for the dataset simulation (e.g., transition probabilities, probability densities, etc.).
 
 3. File `Main_simulation_script.ipynb`: Main script that performs the dataset simulation, estimates parameters on the simulated data, and computes basic statistics (means, confidence intervals, p-values, t-values) for the estimated parameters.
-4. Files `hiv_smm.cp313-win_amd64.pyd` and `load_functions.cp313-win_amd64.pyd`: Pre-built Python libraries provided for convenience. These can be used directly, or rebuilt manually if needed (see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)).
+4. Files `hiv_smm.cp313-win_amd64.pyd` and `load_functions.cp313-win_amd64.pyd`: Pre-built Python libraries provided for convenience. These can be used directly, or rebuilt manually if needed (*see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)*).
 5. File `load_functions.py`: Python file containing JAX functions used for the likelihood optimization.
-6. File `setup.py`: Used to manually build the **`load_functions`** library (see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)).
+6. File `setup.py`: Used to manually build the **`load_functions`** library (*see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)*).
 
 
 
