@@ -45,7 +45,7 @@
    - Files `aij.RData`, `bij.RData`, `sij.RData`, `vij.RData` contain the parameter estimations obtained from the original dataset. These parameters are used for computing the transition probability matrix $P_{ij}$​ and the Weibull duration times, which are used to generate the simulated dataset.
 
 2. Folder **`src`**
-   - `CMakeLists`, **`.ipynb_checkpoints`**: Required to build the libraries for Python. If the pre-built libraries do not work in your environment, you can use these files to build the libraries manually (see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)).
+   - `CMakeLists`: Required to build the libraries for Python. If the pre-built libraries do not work in your environment, you can use these files to build the libraries manually (see section [🔧 Libraries Malfunctions](#-libraries-malfunctions)).
    - `loglikelihoodpython.cpp`: C++ functions adapted for Python, to calculate components used for the dataset simulation (e.g., transition probabilities, probability densities, etc.).
 
 3. File `Main_simulation_script.ipynb`: Main script that performs the dataset simulation, estimates parameters on the simulated data, and computes basic statistics (means, confidence intervals, p-values, t-values) for the estimated parameters.
@@ -61,7 +61,7 @@
 ## 💻 How to run the code
 
 1. Clone the repository in your computer or download locally the folders.
-2. Make sure you are in the `py313_env` environments, so my libraries load properly.
+2. Make sure you are in the python 313 environment, so my libraries load properly.
 3. Open the `Main_simulation_script.ipynb` file and run the cells in order.
 4. When prompted to define the paths for `aij.RData`, `bij.RData`, `sij.RData` and `vij.RData`, enter the location where these files are stored on your computer.
 5. When prompted for the number of bootstrapping samples, enter any positive number:
@@ -100,7 +100,7 @@ However, if they do not work in your environment, you can build them manually:
 ## 📦 Packages and Libraries used
 
 1. **Python Libraries and Packages**:
-   - 🔗 External packages: [`pyreadr`](https://pypi.org/project/pyreadr/), [`jax`](https://github.com/google/jax), [`numpy`](https://numpy.org/), [`scipy`](https://scipy.org/), [`pandas`](https://pandas.pydata.org/).
+   - 🔗 External packages: [`pyreadr`](https://pypi.org/project/pyreadr/), [`jax`](https://github.com/google/jax), [`numpy`](https://numpy.org/), [`scipy`](https://scipy.org/), [`pandas`](https://pandas.pydata.org/), [`cython`](https://cython.org/).
    - 🧩 Python Standard Libraries: `os`, `tkinter`, `logging`, `time`.
 
 2. **C++ libraries**:
