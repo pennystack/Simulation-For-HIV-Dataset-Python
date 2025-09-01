@@ -19,7 +19,7 @@
 
 ## 📝 Description of the simulation code
 
- This Python simulation replicates the functionality of my original R code, designed to validate and confirm the accuracy of the estimated model parameters in the non homogeneous semi-Markov model (as described in the *"Parametric and non-homogeneous semi-Markov process for HIV control"* by E.Mathieu, Y.Foucher, P.Dellamonica and JP.Daures) for studying the evolution of the disease in HIV - 1 infected patients. The model is uses:
+ This Python simulation replicates the functionality of my original R code, designed to validate and confirm the accuracy of the estimated model parameters in the non homogeneous semi-Markov model (as described in the *"Parametric and non-homogeneous semi-Markov process for HIV control"* by E.Mathieu, Y.Foucher, P.Dellamonica and JP.Daures) for studying the evolution of the disease in HIV - 1 infected patients. The model uses:
  - Logit-transformed linear transition probabilities (corresponding parameters: $a_{ij}$ and $b_{ij}$).
  - Weibull duration times (corresponding parameters: $v_{ij}$ and $s_{ij}$).
 
